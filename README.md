@@ -39,9 +39,9 @@ singleton [`TelemetryConfiguration.Active` has been deprecated in the Applicatio
 
 Therefore, now we need to pass in the `TelemetryConfiguration` instance that was added either
 by `services.AddApplicationInsightsTelemetryWorkerService()` (if you're developing
-a [non-http applciation](https://docs.microsoft.com/en-us/azure/azure-monitor/app/worker-service))
+a [non-http application](https://docs.microsoft.com/en-us/azure/azure-monitor/app/worker-service))
 or `services.AddApplicationInsightsTelemetry()` (if you're developing
-an [ASP.Net Core applciation](https://docs.microsoft.com/en-us/azure/azure-monitor/app/asp-net-core)) during Startup
+an [ASP.Net Core application](https://docs.microsoft.com/en-us/azure/azure-monitor/app/asp-net-core)) during Startup
 in `ConfigureServices`.
 
 ```csharp
